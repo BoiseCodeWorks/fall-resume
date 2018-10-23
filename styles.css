@@ -1,0 +1,21 @@
+/*  header selects <header>
+    .my-header selects <header class="my-header"> 
+    #my-header selects <header id="my-header">*/
+header {
+    text-align: center;
+    background-color: rgb(85, 141, 160);
+    text-shadow: 0px 1px whitesmoke;
+}
+
+main h1 {
+  color: rgb(99, 99, 172);
+}
+
+/* ':' indicates a sudoclass */
+main li:hover{
+  color: red;
+}
+
+#summary ul {
+      display: inline-flex;
+}
